@@ -6,7 +6,7 @@ variable "name" {
 variable "description" {
   description = "A description for the security group."
   type        = string
-  default     = "Managed by Terraform"
+  default     = null
 }
 
 variable "vpc_id" {
